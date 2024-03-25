@@ -261,10 +261,7 @@ Author
 -------------------
 Kishan Bellur, PhD         
 Assistant Professor  
-
 Mechanical and Materials Engineering  
-
 University of Cincinnati  
-
 Email: bellurkn@ucmail.uc.edu               
 URL: https://kishanbellur.github.io
