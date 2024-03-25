@@ -100,7 +100,7 @@ How does one compile?
 **Using ```overleaf```:**
 
 ```
-compile john_DEGREE.tex
+compile 6+2_DEGREE.tex
 ```
 
 **Linux (or Mac) from a terminal using the command line, using ```Makefile```:**
@@ -114,12 +114,12 @@ make
 
 ```
 cd LaTeX_MSPhDTemplate
-latex --shell-escape john_DEGREE
-bibtex john_DEGREE
-latex --shell-escape john_DEGREE
-latex --shell-escape john_DEGREE
-dvips -R0 -Ppdf -t letter -o john_DEGREE.ps john_DEGREE.dvi
-ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 john_DEGREE.ps john_DEGREE.pdf
+latex --shell-escape 6+2_DEGREE
+bibtex 6+2_DEGREE
+latex --shell-escape 6+2_DEGREE
+latex --shell-escape 6+2_DEGREE
+dvips -R0 -Ppdf -t letter -o 6+2_DEGREE.ps 6+2_DEGREE.dvi
+ps2pdf -dPDFSETTINGS=/prepress -dSubsetFonts=true -dEmbedAllFonts=true -dMaxSubsetPct=100 6+2_DEGREE.ps 6+2_DEGREE.pdf
 ```
 
 **Mac using ```TeXMaker``` application:**
