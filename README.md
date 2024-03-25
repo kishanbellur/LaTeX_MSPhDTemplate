@@ -236,7 +236,7 @@ The template provides the following 140 named colors (given with their hexadecim
 Got questions? Need help?
 -------------------
 
-Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf) and the [Chicago Manual Style](http://www.chicagomanualofstyle.org/). 
+Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at University of Cincinnati](https://ceas.uc.edu/about/info-current-students/grad/graduation-requirements/thesis-dissertation.html).
 
 DO NOT send your comments, concerns, issues and/or questions about this
 template to UC's Graduate School or Information Technology.
@@ -260,7 +260,7 @@ responsible for any/all damage - intellectual and/or otherwise.
 Author
 -------------------
 Kishan Bellur, PhD          
-Assustant Professor
+Assistant Professor
 Mechanical and Materials Engineering
 University of Cincinnati                 
 Email: bellurkn@ucmail.uc.edu             
