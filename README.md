@@ -256,7 +256,7 @@ responsible for any/all damage - intellectual and/or otherwise.
 
 Credit
 -------------------
-The author is grateful to [Dr. Gowtham ](https://sgowtham.com/) who initially created this for students at Michigan Tech. The original template was forked and since been modified/adapted for use at University of Cincinnati.
+The author is grateful to [Dr. Gowtham ](https://sgowtham.com/) who initially created this for students at Michigan Tech. The original template was forked and modified/adapted for use at University of Cincinnati.
 
 Author
 -------------------
