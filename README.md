@@ -10,14 +10,14 @@ double-sided printing)
 Disclaimer
 -------------------
 
-This and other associated files are distributed in the hope that they will 
+These files are distributed in the hope that they will 
 be useful, but without any warranty; without even the implied warranty of 
 merchantability or fitness for a particular purpose.
 
 Using this template is not a substitute for learning LaTeX and/or 
 understanding its how it works. Also, using this template does not 
-necessarily guarantee that the Graduate School will approve the 
-thesis/dissertation. The Graduate School reserves every right to request 
+necessarily guarantee that the Graduate College will approve the 
+thesis/dissertation. The Graduate College reserves every right to request 
 changes in the future that are not covered by this template yet. 
 
 
@@ -25,7 +25,7 @@ Features
 -------------------
 
 Apart from modularizing the document preparation process, and producing title 
-and signature pages, etc. in compliance with the Graduate School requirements, 
+and signature pages, etc. in compliance with the Graduate College requirements, 
 the template provides the following:
 
   1. Ability to accommodate up to two advisors
@@ -237,7 +237,7 @@ Got questions? Need help?
 Refer to the [formatting guidelines by the graduate college at University of Cincinnati](https://grad.uc.edu/student-life/etd/formatting.html).
 
 DO NOT send your comments, concerns, issues and/or questions about this
-template to UC's Graduate School or Information Technology.
+template to UC's Graduate College or Information Technology.
 [Google](http://google.com/) search often provides a quick and reliable answer.
 If all else fails, then contact the author. Understand that this is a pro-bono
 project. Author may very well be busy with work and life responsibilities and
