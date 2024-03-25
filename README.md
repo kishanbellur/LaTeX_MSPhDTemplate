@@ -50,13 +50,14 @@ thesis or dissertation for you. You are responsible for it.
 What all does one need to get started?
 -------------------
 
-  1. As complete an installation of LaTeX as possible.
+  1. Access to a complete installation of LaTeX:
 
      1. [TeXLive](http://www.tug.org/texlive/) for Linux and Mac, and
-        [MiKTeX](http://miktex.org/) for Windows
-
-     2. [TeXMaker](http://www.xm1math.net/texmaker/) - a LaTeX-aware text 
-        editor - for Linux, Mac and Windows
+        [MiKTeX](http://miktex.org/) for Windows.
+        This will likely come with [TeXMaker](http://www.xm1math.net/texmaker/) - a LaTeX-aware text 
+        editor.
+        
+     3. As an alternative, use an online platform such as [Overleaf](https://www.overleaf.com) for simplicity.
 
   2. This template in its entirety
 
@@ -79,8 +80,6 @@ Which files should one edit?
      4. Remove some or add more appendices under ```Appendices``` section as needed
 
   3. Update ```Personalize/Personalize.tex``` with relevant information
-
-     One may use the relevant sample ```Personalize_*.tex``` as a starting point OR refer to the list of [departments](http://www.mtu.edu/departments/) and [programs](http://www.mtu.edu/gradschool/programs/degrees/a-z/)
 
   4. Update ```FrontMatter/Abbreviations.tex```, ```FrontMatter/Abstract.tex```, ```FrontMatter/Acknowledgments.tex```, ```FrontMatter/Dedication.tex```, ```FrontMatter/Definitions.tex``` and ```FrontMatter/Preface.tex``` with relevant information
 
