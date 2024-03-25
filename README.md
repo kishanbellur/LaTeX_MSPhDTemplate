@@ -67,9 +67,9 @@ What all does one need to get started?
 Which files should one edit?
 -------------------
 
-  1. Rename (not just copy over) ```john_DEGREE.tex``` by substituting ```john``` with your Michigan Tech ISO username, and ```DEGREE``` with either ```MS``` or ```PhD```
+  1. Rename (not just copy over) ```6+2_DEGREE.tex``` by substituting ```6+2``` with your UC 6+2 user ID, and ```DEGREE``` with either ```MS``` or ```PhD```
 
-  2. Open the renamed ```john_DEGREE.tex```
+  2. Open the renamed ```6+2_DEGREE.tex```
 
      1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{UC}``` to ```\documentclass[Degree=MS]{UC}```
 
