@@ -1,4 +1,4 @@
-LaTeX: University of Cincinnati - MS/PhD Template
+LaTeX: MS/PhD Template - University of Cincinnati
 ================
 
 What is this?
