@@ -69,7 +69,7 @@ Which files should one edit?
 
   2. Open the renamed ```6+2_DEGREE.tex```
 
-     1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{UC}``` to ```\documentclass[Degree=MS]{UC}```
+     1. Iff writing a PhD dissertation, then change ```\documentclass[Degree=MS]{UC}``` to ```\documentclass[Degree=PhD]{UC}```
 
      2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need
 
