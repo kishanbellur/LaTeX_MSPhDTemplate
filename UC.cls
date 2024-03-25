@@ -9,7 +9,7 @@
 
 %
 % Class name and a brief description
-\ProvidesClass{UC}[2014/07/23 Thesis/Dissertation Class]
+\ProvidesClass{UC}[2024/03/25 Thesis/Dissertation Class]
 
 %
 % Document class (and options) to load
@@ -92,7 +92,7 @@
 \setlength{\abovecaptionskip}{0.10in}  % Space above caption
 \setlength{\belowcaptionskip}{0.10in}  % Space below caption
 \setlength{\captionmargin}{0.50in}     % Left/Right margin for caption
-\setlength{\captionwidth}{5.00in}      % Caption width
+%\setlength{\captionwidth}{5.00in}      % Caption width
 \setlength{\abovedisplayskip}{-0.10in} % Space before Math stuff
 \setlength{\belowdisplayskip}{-0.10in} % Space after Math stuff
 \setlength{\arraycolsep}{0.10in}       % Gap between columns of an array
