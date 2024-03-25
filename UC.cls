@@ -9,7 +9,7 @@
 
 %
 % Class name and a brief description
-\ProvidesClass{UC}[2014/07/23 Thesis/Dissertation Class]
+\ProvidesClass{UC}[2024/03/25 Thesis/Dissertation Class]
 
 %
 % Document class (and options) to load
