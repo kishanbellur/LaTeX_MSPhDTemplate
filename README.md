@@ -71,7 +71,7 @@ Which files should one edit?
 
   2. Open the renamed ```john_DEGREE.tex```
 
-     1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{MichiganTech}``` to ```\documentclass[Degree=MS]{MichiganTech}```
+     1. Iff writing a MS thesis, then change ```\documentclass[Degree=PhD]{UC}``` to ```\documentclass[Degree=MS]{UC}```
 
      2. Comment the lines marked ```% Optional``` under ```Front Matter``` section if there is a need
 
@@ -93,7 +93,7 @@ Which files should one edit?
 
   9. Place all figures in ```Figures``` folder
 
-  10. Update ```MichiganTech.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works
+  10. Update ```UC.cls``` and/or ```Packages/*.sty``` iff there is a need, and iff there is an understanding of how the LaTeX class/style file works
 
 
 How does one compile?
