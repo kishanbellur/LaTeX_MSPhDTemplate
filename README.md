@@ -236,7 +236,7 @@ The template provides the following 140 named colors (given with their hexadecim
 Got questions? Need help?
 -------------------
 
-Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at University of Cincinnati](https://ceas.uc.edu/about/info-current-students/grad/graduation-requirements/thesis-dissertation.html).
+Refer to the [formatting guidelines by the graduate college at University of Cincinnati](https://grad.uc.edu/student-life/etd/formatting.html).
 
 DO NOT send your comments, concerns, issues and/or questions about this
 template to UC's Graduate School or Information Technology.
