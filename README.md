@@ -7,8 +7,6 @@ What is this?
 A LaTeX template for writing MS thesis or PhD dissertation (for 
 double-sided printing)
 
-Full Credit to [Dr. Gowtham ](https://sgowtham.com/) who initially created this for Michigan Tech students. The original template was forked and since been modified/adapted to fit University of Cincinnati.
-
 Disclaimer
 -------------------
 
@@ -256,6 +254,9 @@ if you decide to do so, you are doing so entirely at your very own discretion
 and that neither the author nor the institution is 
 responsible for any/all damage - intellectual and/or otherwise.
 
+Credit
+-------------------
+The author is grateful to [Dr. Gowtham ](https://sgowtham.com/) who initially created this for students at Michigan Tech students. The original template was forked and since been modified/adapted for use at University of Cincinnati.
 
 Author
 -------------------
