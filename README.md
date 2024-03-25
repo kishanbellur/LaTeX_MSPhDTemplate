@@ -5,14 +5,9 @@ What is this?
 -------------------
 
 A LaTeX template for writing MS thesis/report or PhD dissertation (for 
-double-sided printing) in compliance with the [guidelines from the Graduate 
-School in Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf).
+double-sided printing)
 
-First started in March 2007 when the author was typsetting PhD dissertation, 
-this template has undergone many many revisions over the last several years. 
-Attempts will be made to keep it updated as and when the time and resources 
-permit.
-
+Full Credit to [Dr. Gowtham ](https://sgowtham.com/) who initially created this for Michigan Tech students. The original template was forked and since been modified/adapted to fit University of Cincinnati.
 
 Disclaimer
 -------------------
@@ -104,6 +99,12 @@ Which files should one edit?
 
 How does one compile?
 -------------------
+
+**Using ```overleaf```:**
+
+```
+compile john_DEGREE.tex
+```
 
 **Linux (or Mac) from a terminal using the command line, using ```Makefile```:**
 
@@ -239,7 +240,7 @@ Got questions? Need help?
 Refer to the [Guide to completing a graduate degree and preparing and submitting a dissertation, thesis, or report at Michigan Technological University](http://www.mtu.edu/gradschool/administration/academics/thesis-dissertation/pdfs/guide.pdf) and the [Chicago Manual Style](http://www.chicagomanualofstyle.org/). 
 
 DO NOT send your comments, concerns, issues and/or questions about this
-template to Michigan Tech's Graduate School or Information Technology.
+template to UC's Graduate School or Information Technology.
 [Google](http://google.com/) search often provides a quick and reliable answer.
 If all else fails, then contact the author. Understand that this is a pro-bono
 project. Author may very well be busy with work and life responsibilities and
@@ -253,17 +254,15 @@ Feel free to clone/fork this repository and make changes to fit your needs.
 You have my explicit permission to do so. This template and/or the changes 
 you make may very well work for you (or your institution). Please note that
 if you decide to do so, you are doing so entirely at your very own discretion 
-and that neither the author nor Michigan Technological University is 
+and that neither the author nor the institution is 
 responsible for any/all damage - intellectual and/or otherwise.
 
 
 Author
 -------------------
-
-Dr. Gowtham, PhD          
-Director of Research Computing, IT             
-Research Associate Professor, College of Computing       
-Adjunct Associate Professor, Physics        
-Michigan Technological University                 
-Email: g@mtu.edu             
-URL: https://sgowtham.com
+Kishan Bellur, PhD          
+Assustant Professor
+Mechanical and Materials Engineering
+University of Cincinnati                 
+Email: bellurkn@ucmail.uc.edu             
+URL: https://kishanbellur.github.io
