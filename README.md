@@ -4,7 +4,7 @@ LaTeX: University of Cincinnati - MS/PhD Template
 What is this?
 -------------------
 
-A LaTeX template for writing MS thesis/report or PhD dissertation (for 
+A LaTeX template for writing MS thesis or PhD dissertation (for 
 double-sided printing)
 
 Full Credit to [Dr. Gowtham ](https://sgowtham.com/) who initially created this for Michigan Tech students. The original template was forked and since been modified/adapted to fit University of Cincinnati.
