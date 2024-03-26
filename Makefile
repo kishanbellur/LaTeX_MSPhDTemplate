@@ -1,7 +1,7 @@
 #
 # Makefile
-# Makefile to systematically compile the john_DEGREE.tex to produce
-# john_DEGREE.pdf (and clean up temporary files).
+# Makefile to systematically compile the 6+2_DEGREE.tex to produce
+# 6+2_DEGREE.pdf (and clean up temporary files).
 # 
 # In order to create the PDF file, just type
 #
@@ -12,14 +12,14 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #
 # DO NOT send your questions, comments and/or concerns about this template to 
-# Michigan Tech's Graduate School staff. Instead, please contact
+# UC's Graduate College staff. Instead, please contact
 #
-# Gowtham
-# Director of Research Computing, IT
-# Adj. Asst. Professor, Physics/ECE
-# Michigan Technological University
-# Email: g@mtu.edu
-
+# Kishan Bellur, PhD         
+# Assistant Professor  
+# Mechanical and Materials Engineering  
+# University of Cincinnati  
+# Email: bellurkn@ucmail.uc.edu               
+# URL: https://kishanbellur.github.io
 #
 # File suffixes
 .SUFFIXES: .tex .dvi .eps .ps .pdf .jpg .gif
@@ -45,7 +45,7 @@ DATETIME = $(shell date +"%Y%m%d_%H%M%S")
 
 #
 # List of class and style files
-CLASSFILE  = MichiganTech.cls
+CLASSFILE  = UC.cls
 STYLEFILES = Packages/MS.sty  \
              Packages/PhD.sty
 
