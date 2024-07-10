@@ -177,18 +177,13 @@
 \def\title#1{\gdef\@title{#1}}
 \def\author#1{\gdef\@author{#1}}
 \def\department#1{\gdef\@department{#1}}
-\def\school#1{\gdef\@school{#1}}
 \def\program#1{\gdef\@program{#1}}
 \def\university#1{\gdef\@university{#1}}
-\def\year#1{\gdef\@year{#1}}
+\def\date#1{\gdef\@date{#1}}
+\def\priordegree#1{\gdef\@priordegree{#1}}
+\def\college#1{\gdef\@college{#1}}
 \def\primaryadvisor#1{\gdef\@primaryadvisor{#1}}
 \def\coadvisor#1{\gdef\@coadvisor{#1}}
-\def\departmentchair#1{\gdef\@departmentchair{#1}}
-\def\schooldean#1{\gdef\@schooldean{#1}}
-\def\advcommone#1{\gdef\@advcommone{#1}}
-\def\advcommtwo#1{\gdef\@advcommtwo{#1}}
-\def\advcommthree#1{\gdef\@advcommthree{#1}}
-\def\advcommfour#1{\gdef\@advcommfour{#1}}
 
 %
 % Colors
@@ -360,7 +355,7 @@
 %
 % Abbreviations
 \newcommand{\abbreviations}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
   \section*{List of Abbreviations}
@@ -372,13 +367,13 @@
 %
 % Abstract
 \renewcommand{\abstract}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
   \section*{Abstract}
   \addcontentsline{toc}{chapter}{Abstract}
   \input{FrontMatter/Abstract}
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \newpage
   \pagenumbering{arabic}
 }
@@ -386,7 +381,7 @@
 %
 % Acknowledgments
 \newcommand{\acknowledgments}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
   \section*{Acknowledgments}
@@ -398,10 +393,10 @@
 %
 % Dedication
 \newcommand{\dedication}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{empty}
   \phantomsection
-  \section*{Dedication}
+  \section*{}
   \input{FrontMatter/Dedication}
   \newpage
 }
@@ -409,7 +404,7 @@
 %
 % Definitions
 \newcommand{\definitions}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{empty}
   \phantomsection
   \section*{Definitions}
@@ -421,7 +416,7 @@
 %
 % Nomenclature
 \newcommand{\nomenclature}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
   \section*{Nomenclature}
@@ -433,7 +428,7 @@
 %
 % Preface
 \newcommand{\preface}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
   \section*{Preface}
@@ -445,7 +440,7 @@
 %
 % Table of Contents, List of Figures and List of Tables
 \newcommand{\contentsfigurestables}{
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
 
   % Table of Contents
@@ -453,12 +448,12 @@
   \tableofcontents
 
   % List of Figures
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \listoffigures
 
   % List of Tables
-  \cleartooddpage[\thispagestyle{empty}]
+  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \listoftables
   \newpage
