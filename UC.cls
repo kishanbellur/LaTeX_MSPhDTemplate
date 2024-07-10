@@ -184,6 +184,10 @@
 \def\college#1{\gdef\@college{#1}}
 \def\primaryadvisor#1{\gdef\@primaryadvisor{#1}}
 \def\coadvisor#1{\gdef\@coadvisor{#1}}
+\def\advcommone#1{\gdef\@advcommone{#1}}
+\def\advcommtwo#1{\gdef\@advcommtwo{#1}}
+\def\advcommthree#1{\gdef\@advcommthree{#1}}
+\def\advcommfour#1{\gdef\@advcommfour{#1}}
 
 %
 % Colors
@@ -355,10 +359,9 @@
 %
 % Abbreviations
 \newcommand{\abbreviations}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
-  \section*{List of Abbreviations}
+  \chapter*{List of Abbreviations}
   \addcontentsline{toc}{chapter}{List of Abbreviations}
   \input{FrontMatter/Abbreviations}
   \newpage
@@ -367,10 +370,9 @@
 %
 % Abstract
 \renewcommand{\abstract}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
-  \section*{Abstract}
+  \chapter*{Abstract}
   \addcontentsline{toc}{chapter}{Abstract}
   \input{FrontMatter/Abstract}
   %\cleartooddpage[\thispagestyle{empty}]
@@ -381,10 +383,9 @@
 %
 % Acknowledgments
 \newcommand{\acknowledgments}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
-  \section*{Acknowledgments}
+  \chapter*{Acknowledgments}
   \addcontentsline{toc}{chapter}{Acknowledgments}
   \input{FrontMatter/Acknowledgments}
   \newpage
@@ -393,10 +394,9 @@
 %
 % Dedication
 \newcommand{\dedication}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{empty}
   \phantomsection
-  \section*{}
+  \chapter*{}
   \input{FrontMatter/Dedication}
   \newpage
 }
@@ -404,10 +404,9 @@
 %
 % Definitions
 \newcommand{\definitions}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{empty}
   \phantomsection
-  \section*{Definitions}
+  \chapter*{Definitions}
   \addcontentsline{toc}{chapter}{Definitions}
   \input{FrontMatter/Definitions}
   \newpage
@@ -416,10 +415,9 @@
 %
 % Nomenclature
 \newcommand{\nomenclature}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
-  \section*{Nomenclature}
+  \chapter*{Nomenclature}
   \addcontentsline{toc}{chapter}{Nomenclature}
   \input{FrontMatter/Nomenclature}
   \newpage
@@ -428,10 +426,9 @@
 %
 % Preface
 \newcommand{\preface}{
-  %\cleartooddpage[\thispagestyle{empty}]
   \thispagestyle{plain}
   \phantomsection
-  \section*{Preface}
+  \chapter*{Preface}
   \addcontentsline{toc}{chapter}{Preface}
   \input{FrontMatter/Preface}
   \newpage

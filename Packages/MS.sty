@@ -14,7 +14,7 @@
   \null\vskip.50in%
 
   \begin{center}
-    \expandafter{\@title}
+    \expandafter{\textbf{\@title}}
   \end{center}
 
   \vspace{\fill}
@@ -41,10 +41,25 @@
   \begin{center}
 	  \begin{tabular}{cc}%
 	  	\ifx \@coadvisor \@empty 
-	  	Thesis Advisor:    & \hspace{0.10in}\textsl{\expandafter{\@primaryadvisor}}\\
+	  	Committee Chair:    & \hspace{0.10in}\textsl{\expandafter{\@primaryadvisor}}\\
 	  	\else
-	  	Thesis Co-advisor: & \hspace{0.10in}\textsl{\expandafter{\@primaryadvisor}}\\
-	  	Thesis Co-advisor: & \hspace{0.10in}\textsl{\expandafter{\@coadvisor}}\\
+	  	Commitee Co-chair: & \hspace{0.10in}\textsl{\expandafter{\@primaryadvisor}}\\
+	  	Commitee Co-chair: & \hspace{0.10in}\textsl{\expandafter{\@coadvisor}}\\
+	  	\fi
+	  	 \ifx \@advcommone \@empty \else
+	  	Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommone}}\\
+	  	\fi
+	  	
+	  	\ifx \@advcommtwo \@empty \else
+	  	Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommtwo}}\\
+	  	\fi
+	  	
+	  	\ifx \@advcommthree \@empty \else
+	  	Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommthree}}\\
+	  	\fi
+	  	
+	  	\ifx \@advcommfour \@empty \else
+	  	Committee Member:  & \hspace{0.10in}\textsl{\expandafter{\@advcommfour}}\\ 
 	  	\fi
 	  \end{tabular}%
   \end{center}
