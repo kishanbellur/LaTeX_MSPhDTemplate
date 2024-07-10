@@ -375,7 +375,7 @@
   \input{FrontMatter/Abstract}
   %\cleartooddpage[\thispagestyle{empty}]
   \newpage
-  \pagenumbering{arabic}
+
 }
 
 %
@@ -440,7 +440,7 @@
 %
 % Table of Contents, List of Figures and List of Tables
 \newcommand{\contentsfigurestables}{
-  %\cleartooddpage[\thispagestyle{empty}]
+  \clearpage
   \thispagestyle{plain}
 
   % Table of Contents
@@ -448,7 +448,7 @@
   \tableofcontents
 
   % List of Figures
-  %\cleartooddpage[\thispagestyle{empty}]
+  \clearpage
   \thispagestyle{plain}
   \listoffigures
 
